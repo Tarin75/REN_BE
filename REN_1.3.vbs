@@ -34,9 +34,6 @@ prefixe = "BE_" & numero & "_PLAN"
 ' Fichiers à exclure du renommage
 excludedPrefixes = Array("STVLT_", "BE_", "TR_", "BC_", "EX_", "BD_")
 
-' Affiche une boîte de message indiquant que le renommage est en cours
-MsgBox "Renommage en cours, merci de patienter", vbInformation + vbSystemModal, "BE Frameries - Renommage fichiers"
-
 ' Parcours les répertoires
 For Each repertoire In repertoires
     ' Construit le chemin du sous-répertoire
